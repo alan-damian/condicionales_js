@@ -14,4 +14,12 @@ const numero2 = -2;
 //        es positivo
 //        --> En caso afirmativo imprima en pantalla "Resp=1"
 //        --> En caso negativo imprima en pantalla   "Resp=2"
-
+if(numero1 < 5) {
+    alert(`${numero1} ¨no es mayor a 5`)
+} else {
+    if(numero2 > 0) {
+        alert(`Resp=1`);
+    } else {
+        alert(`Resp=2`);
+    }
+}
